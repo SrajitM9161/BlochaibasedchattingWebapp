@@ -1,6 +1,6 @@
 import React from 'react'
 
-const dappcontex = () => {
+const filter = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const dappcontex = () => {
   )
 }
 
-export default dappcontex
+export default filter

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const dappcontex = () => {
+const NavBar = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const dappcontex = () => {
   )
 }
 
-export default dappcontex
+export default NavBar
