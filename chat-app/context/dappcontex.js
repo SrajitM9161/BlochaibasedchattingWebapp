@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import {useRouter} from"next/router";
 
-import {walletconnection ,connectwallet,onnectionContract} from "../utils/apifeatures"
+import {walletconnection ,connectwallet,connectionContract} from "../utils/apifeatures"
 
 
 export const Dappcontex =React.createContext();
