@@ -1,11 +1,17 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
+import {useRouter} from"next/router";
 
-const dappcontex = () => {
+import {walletconnection ,connectwallet,onnectionContract} from "../utils/apifeatures"
+
+
+export const Dappcontex =React.createContext();
+
+export const Dappprovider = ({children})=>{
+  const title ="Wlcome to DCHAT";
   return (
-    <div>
-      
-    </div>
-  )
-}
+<Dappcontex.Provider value={{title}}>
+  {children}
+</Dappcontex.Provider>
+  );
+};
 
-export default dappcontex

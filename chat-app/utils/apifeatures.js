@@ -2,7 +2,7 @@ import {ethres} from "ethers";
 import Web3Modal from "web3modal";
 
 import {dappAdress,dappABI} from "../context/constants";
-import { error } from "console";
+
 
 
 export const walletconnection = async() =>{
