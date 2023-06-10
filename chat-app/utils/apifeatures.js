@@ -13,7 +13,7 @@ export const walletconnection = async() =>{
 method: "eth_account",
         });
         const first_account=accounts[0]
-        return first_account=accounts;
+        return first_account;
     }
 
     catch(error){
